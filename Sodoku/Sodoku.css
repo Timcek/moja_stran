@@ -111,12 +111,6 @@ select {
     width: 100%;
     font-size: 5.5vw;
   }
-
-  a {
-    width: 7%;
-    height: 4vw;
-    font-size: 3.5vw;
-  }
 }
 
 @media screen and (orientation: portrait) and (min-width: 1px){
@@ -133,12 +127,6 @@ select {
     height: 9.44vw;
     width: 100%;
     font-size: 7vw;
-  }
-
-  a {
-    width: 7%;
-    height: 4vw;
-    font-size: 3.5vw;
   }
 }
 
