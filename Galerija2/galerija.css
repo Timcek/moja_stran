@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background: #f2eeeb;
+}
+
+li {
+  border-right: 1px solid black;
+}
+
+.nav-item:nth-child(5){
+  border-right: 0;
+}
+
+#navi {
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+
+.naslov{
+  font-size: 60px;
+  text-align: center;
+  margin: 10px auto 40px auto;
+}
+
+.glavni {
+  display:inline-block;
+  width: 49%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.stranski{
+  width: 70%;
+  background-color: white;
+  display: flex;
+  margin: 0 auto 0 auto;
+  flex-direction: column;
+  border: 1px solid #66676b;
+  border-radius: 1%;
+  background: #f7e9df;
+}
+
+
+.notranji_ena{
+  background-size:100% 100%;
+  background-color: black;
+  /* height: 75%; */
+  /* margin-top: 10px; */
+  margin: 10px 10px 10px 10px;
+}
+
+.notranji_dve {
+    border-top: 3px solid #555659;
+    height: 25%;
+    background-color: #f0e0d5;
+    display: flex;
+    /* text-align: center;
+    line-height: 100%; */
+}
+
+h1 {
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 7em;
+  font-weight: normal;
+  margin: 0;
+  /* position: absolute; */
+  text-align: center;
+  line-height: 100vh;
+  /* top: 50vh; */
+  left: 50%;
+  /* margin: 0 auto 0 auto */
+  /* margin-left: -50px; */
+  user-select: none;
+}
+
+p {
+  font-weight: 550;
+  margin: auto;
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-size: 3em;
+}
+
+.slika1 {
+  background-image: url(ljubljana.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  margin-bottom: 10vh;
+}
+.slika2 {
+  background-image: url(Avstrija.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30vh;
+  max-height: 40vh;
+  background-attachment: fixed;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+.napis_slike2 {
+    line-height: 40vh;
+}
+
+footer {
+  height: 20vh;
+  background-color: #5e5b5b;
+}
+
+.spodnji {
+  margin-top: 9vh;
+  text-align: center;
+}
+
+@media (min-width: 250px), (max-width: 1100px), (orientation: landscape){
+  .glavni {
+    width: 100%;
+  }
+  .slika1 {
+    background-attachment: initial;
+  }
+  .slika2 {
+    background-attachment: initial;
+  }
+}
+
+@media (min-width: 1201px), (orientation: landscape){
+  .glavni {
+    width: 49%;
+  }
+  .slika1 {
+    background-attachment: fixed;
+  }
+  .slika2 {
+    background-attachment: fixed;
+  }
+}
+
+
+@media (max-width:991px){
+  li{
+      border-right: 0;
+  }
+}

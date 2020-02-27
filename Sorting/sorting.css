@@ -1,0 +1,87 @@
+.celoten {
+  margin: 0;
+  background-color: #f2eeeb;
+}
+
+.najmansi{
+  display: inline-block;
+  border: 1px solid black;
+  width: 3%;
+  height: 52px;
+  background-color: green;
+  float: left;
+  bottom: 0px;
+}
+
+.objema{
+  width: 85%;
+  height: 50vh;
+  margin: 0 auto 0 auto;
+  border: 1px solid black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #e6dfda;
+}
+
+
+li {
+  border-right: 1px solid black;
+}
+
+.nav-item:nth-child(5){
+  border-right: 0;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+.prvi {
+  margin: 0 10% 3vh 10%;
+}
+
+#list, #list1 {
+  width: auto;
+  background-color: #f7e9df;
+  color: black;
+  margin: 0 auto 0 auto;
+}
+
+.zadnji {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.example_e {
+  display: inline-block;
+  border: none;
+  background: #404040;
+  color: #ffffff;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
+}
+
+.example_e:hover {
+  color: #404040;
+  font-weight: 700;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.example_e, .example_e:hover, .example_e:active, .example_ea:visited, .example_e:focus {
+    text-decoration:none;
+}
+
+#navi {
+  margin-bottom: 10vh;
+  /*position: absolute;*/
+}

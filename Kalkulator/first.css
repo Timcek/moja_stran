@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+  background-color: #f2eeeb;
+}
+
+.kalkulator {
+  width: 50%;
+  margin: 2vh auto 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+li {
+  border-right: 1px solid black;
+}
+
+.nav-item:nth-child(5){
+  border-right: 0;
+}
+
+h1 {
+  text-align: right;
+  margin: 0 auto 0 auto;
+  height: 15vh;
+  width: 99%;
+  font-size: 12vh;
+  background-color: white;
+  user-select: none;
+  overflow: auto;
+}
+
+td {
+  background-color: green;
+  width: 25%;
+  height: 15vh;
+  font-size: 12vh;
+  text-align: center;
+  user-select: none;
+  border: 1px solid white;
+}
+
+
+@media screen and (orientation: portrait) and (min-width: 100px){
+  .kalkulator {
+    width: 70%;
+    margin-top: 18vh;
+  }
+
+  td {
+    height: 23vw;
+    font-size: 13vw;
+  }
+
+  h1 {
+    height: 23vw;
+    font-size: 13vw;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-width: 700px){
+  .kalkulator {
+    width: 70%;
+    margin-top: 5vh;
+  }
+
+  td {
+    height: 18vw;
+    font-size: 11vw;
+  }
+
+  h1 {
+    height: 18vw;
+    font-size: 11vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1300px){
+  .kalkulator {
+    width: 30%;
+    margin-top: 2vh;
+  }
+
+  td {
+    height: 12vh;
+    font-size: 9vh;
+  }
+
+  h1 {
+    height: 12vh;
+    font-size: 9vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1800px){
+  .kalkulator {
+    width: 25%;
+    margin-top: 2vh;
+  }
+
+  td {
+    height: 12vh;
+    font-size: 9vh;
+  }
+
+  h1 {
+    height: 12vh;
+    font-size: 9vh;
+  }
+}
+
+
+@media (max-width:991px){
+  li{
+      border-right: 0;
+  }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+    background-color:#f2efd3;
+}
+
+.okvirji {
+    width: 46%;
+    margin-top: 5vh;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+.glavni {
+    width: 70%;
+    margin: 2vh auto 0 auto;
+    margin-bottom: 10vh;
+}
+
+li {
+    border-right: 1px solid black;
+}
+
+.nav-item:nth-child(5){
+    border-right: 0;
+}
+/*.ena{
+    background-image: url(sudoku.jpg);
+}*/
+
+.okvirji:nth-child(1) .za_sliko{
+    background-image: url(sudoku.jpg);
+}
+.okvirji:nth-child(2) .za_sliko{
+    background-image: url(kalkulator.jpg);
+}
+
+.okvirji:nth-child(3) .za_sliko{
+    background-image: url(sortiranje.jpg);
+}
+
+.okvirji:nth-child(4) .za_sliko{
+    background-image: url(galerija.jpg)
+}
+
+.za_sliko{
+    padding-top: 56.25%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.asd {
+    /*display:none;*/
+    position:  absolute;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Lobster";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    color: rgb(119, 148, 245);
+    height: 0;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    transition: .5s ease;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.slika_text {
+    margin-bottom: 0;
+    margin-top: 1.5vh;
+}
+
+.okvirji:nth-child(1), .okvirji:nth-child(3){
+    margin-right: 3%;
+}
+
+.okvirji:hover .asd {
+    height: 5vh;
+}
+
+.okvirji:hover {
+    -webkit-box-shadow: 0px 0px 35px 8px rgba(36,33,36,0.69);
+    -moz-box-shadow: 0px 0px 35px 8px rgba(36,33,36,0.69);
+    box-shadow: 0px 0px 35px 8px rgba(36,33,36,0.69);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+
+p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .okvirji {
+        width: 100%;
+        margin: 0 0 5vh 0;
+    }
+
+}
+
+@media (max-width:991px){
+    li{
+        border-right: 0;
+    }
+}
+
