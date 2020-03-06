@@ -97,6 +97,24 @@ select {
 }
 
 
+@media screen and (orientation: landscape) and (min-width: 1235px) and (max-width: 1500px){
+  table {
+    margin: 10vh auto 0 auto;
+    width: 38%;
+  }
+
+  td {
+    height: 4.5vw;
+  }
+
+  input {
+    height: 3.5vw;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+}
+
 @media screen and (orientation: portrait) and (min-width: 600px){
   table {
     margin: 20vh auto 0 auto;
@@ -108,13 +126,14 @@ select {
   }
 
   input {
-    height: 6.8vw;
+    height: 4vw;
     width: 100%;
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
+
 }
 
-@media screen and (orientation: portrait) and (min-width: 1px){
+@media screen and (orientation: portrait) and (min-width: 1px) and (max-width: 599px){
   table {
     margin: 10vh auto 0 auto;
     width: 75%;
@@ -129,6 +148,7 @@ select {
     width: 100%;
     font-size: 7vw;
   }
+
 }
 
 @media (max-width:991px){
