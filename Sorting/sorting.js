@@ -92,7 +92,6 @@ function sleep(ms) {
 
 async function quick_sort(a,left,right){
     if (right > left){
-      debugger
         var i=left, j=right-1, tmp;
         var v = a[right]; //pivot
         var counter = 0;
