@@ -1,10 +1,10 @@
 body {
-  /*background: url(ozadje.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  background: url(ozadje.jpg) no-repeat center center fixed; 
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  background-color: blue;
+  -o-background-size: cover;*/
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 table, th{
@@ -96,7 +96,6 @@ select {
   margin-bottom: 0;
 }
 
-
 @media screen and (orientation: landscape) and (min-width: 1235px) and (max-width: 1500px){
   table {
     margin: 10vh auto 0 auto;
@@ -149,6 +148,11 @@ select {
     font-size: 7vw;
   }
 
+  /*.a {
+    width: 7%;
+    height: 4vw;
+    font-size: 3.5vw;
+  }*/
 }
 
 @media (max-width:991px){
